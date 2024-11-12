@@ -26,7 +26,7 @@ $$
 A python program was used to find its axis symmetry
 
 ```{bash}
-python AxisOfSymmetry.py # change the local image link
+python AxisOfSymmetry.py
 ```
 
 ## Volume
