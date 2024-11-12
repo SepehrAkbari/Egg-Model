@@ -17,11 +17,22 @@ The project aims to find the volume and surface area of the an ordinary egg:
 Three different ways of modeling was used, and then compared, to find the most suitable and accurate.
 
 - Ellipse Equation
+
 $$
-x+y
+\frac{x^2}{r_x^2} + \frac{y^2}{r_y^2} = 1
 $$
+
 - Oviform Curve
+
+$$
+y = \pm \frac{B}{2} \times \sqrt{\frac{L^2-4x^2}{L^2+8wx+4w^2}}
+$$
+
 - Lagrange Interpolation
+
+$$
+T(x) = \sum^{n+1}_{i=1} \frac{(x-x_1) \ldots (x-x_{i-1})(x + x_{i+1}) \ldots (x-x_{n+1})}{(x_i-x_1) \ldots (x_i-x_{i-1})(x_i + x_{i+1}) \ldots (x_i-x_{n+1})} y_i
+$$
 
 A python program was used to find its axis symmetry
 
