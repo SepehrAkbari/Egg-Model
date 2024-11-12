@@ -36,7 +36,7 @@ $$
 
 A python program was used to find its axis symmetry
 
-```{bash}
+```bash
 python AxisOfSymmetry.py
 ```
 
