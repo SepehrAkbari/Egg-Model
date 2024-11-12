@@ -42,6 +42,30 @@ python AxisOfSymmetry.py
 
 ## Volume
 
+Calculate the volume (of revolution) through the following formula.
+
+$$
+V = \pi \int_b^a [f(y)]^2 dy
+$$
+
+## Surface Area
+
+Calculate the surface area through the following formula.
+
+$$
+A = 2\pi \int_b^a y \sqrt{1 + (\frac{dy}{dx})^2} dy
+$$
+
+## Contributing
+
+Contributions to this project are welcome! If you would like to contribute, please fork the repository, make your changes, and submit a pull request. Or contact me.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+###### Winter 2023.
+
 
 
 
