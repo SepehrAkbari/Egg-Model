@@ -31,7 +31,7 @@ $$
 - Lagrange Interpolation
 
 $$
-T(x) = \sum^{n+1}_{i=1} \frac{(x-x_1) \ldots (x-x_{i-1})(x + x_{i+1}) \ldots (x-x_{n+1})}{(x_i-x_1) \ldots (x_i-x_{i-1})(x_i + x_{i+1}) \ldots (x_i-x_{n+1})}
+T(x) = \sum_{i=1}^{n+1} \frac{(x - x_1) \cdots (x - x_{i-1})(x - x_{i+1}) \cdots (x - x_{n+1})}{(x_i - x_1) \cdots (x_i - x_{i-1})(x_i - x_{i+1}) \cdots (x_i - x_{n+1})} y_i
 $$
 
 A python program was used to find its axis symmetry
